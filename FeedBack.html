@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features-Nice Mind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;900&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/norm.css">
+    <link rel="stylesheet" href="./css/myFramwork.css">
+    <link rel="stylesheet" href="./css/Nice-Mind.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+
+<body>
+    <div class="Nav-bar">
+        <div class="logo">
+            <div class="image">
+                <a href=""><img src="./img/nicemindlogo.svg" alt=""></a>
+            </div>
+            <a href="">
+                <h2>Nice Mind</h2>
+            </a>
+        </div>
+        <i class="fa-solid fa-bars"></i>
+        <ul class="links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./features.html">Features</a></li>
+            <li><a href="./Downloads.html">Downloads</a></li>
+            <li><a href="./What's New.html">What's New</a></li>
+            <li><a href="./HandBook.html">HandBook</a></li>
+            <li><a href="./FeedBack.html" class="active">FeedBack</a></li>
+        </ul>
+    </div>
+
+    <div class="feed-back">
+        <div class="container">
+            <div class="text">
+                <h2>Feed Back</h2>
+                <p>If you have better suggestions for the product, welcome your advices</p>
+            </div>
+            <form action="">
+                <div class="platforms">
+                    <h3>Platforms *</h3>
+                    <div class="ratios">
+                        <div class="ratio">
+                            <input type="radio" name="Platform" id="Windows" required checked>
+                            <label for="Windows">Windows</label>
+                        </div>
+                        <div class="ratio">
+                            <input type="radio" name="Platform" id="Android" required>
+                            <label for="Android">Android</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="FeedBack type">
+                    <h3>FeedBack type *</h3>
+                    <div class="ratios">
+                        <div class="ratio">
+                            <input type="radio" name="FeedBack type" id="Bug-Report" required checked>
+                            <label for="Bug-Report">Bug-Report</label>
+                        </div>
+
+                        <div class="ratio">
+                            <input type="radio" name="FeedBack type" id="Feature request" required>
+                            <label for="Feature request">Feature request</label>
+                        </div>
+
+                        <div class="ratio">
+                            <input type="radio" name="FeedBack type" id="Product suggestion" required>
+                            <label for="Product suggestion">Product suggestion</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="infos">
+                    <div class="field">
+                        <label for="Name">Your Name *</label>
+                        <input type="text" id="Name" name="User-Name" required>
+                    </div>
+                    <div class="field">
+                        <label for="Email">Your Email *</label>
+                        <input type="email" id="Email" name="Email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="Desc">Description *</label>
+                        <textarea name="Description" id="Desc" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="field">
+                        <label for="file">Upload Files</label>
+                        <input type="file" id="file" name="file">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2023 Nice Mind</p>
+        <p>Powered by Nice Mind</p>
+    </div>
+</body>
+
+</html>
